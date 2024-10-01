@@ -28,3 +28,9 @@
 
 # Nicolaka/netshoot
 `docker run -it --net testnet nicolaka/netshoot`
+
+# Compose
+`docker compose up`
+
+# To remove them
+`docker compose down -v`
