@@ -21,4 +21,10 @@
 `docker network create wecnet`
 
 # Connecting Containers
-`docker netowrk connect <network> <container>`
+`docker network connect <network> <container>`
+
+# To spin up a ubuntu container
+`docker run -itd ubuntu bash`
+
+# Nicolaka/netshoot
+`docker run -it --net testnet nicolaka/netshoot`
