@@ -2,11 +2,11 @@
 
 `docker run -d \                                                        
   --name=firefox \
-  --security-opt seccomp=unconfined `#optional` \
+  --security-opt seccomp=unconfined \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
-  -e FIREFOX_CLI=https://www.linuxserver.io/ `#optional` \
+  -e FIREFOX_CLI=https://www.linuxserver.io/ \
   -p 3001:3000 \
   -p 3002:3001 \
   -v /path/to/config:/config \
